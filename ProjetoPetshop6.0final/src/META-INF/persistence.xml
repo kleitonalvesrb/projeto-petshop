@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence 
+	http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+	<!-- PODEM TER VÁRIOS PERSISTENCE UNIT -->
+	<persistence-unit name="JPA_UNIT" transaction-type="RESOURCE_LOCAL">
+		<!-- PROVEDOR QUE IMPLEMENTOU A API JPA -->
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<!-- ENTIDADES CONHECIDAS PELO ENTITY MANAGER -->
+					 <class>br.com.petshop.caokilate.entidades.Usuario</class>
+					 <class>br.com.petshop.caokilate.entidades.Endereco</class>
+					 <class>br.com.petshop.caokilate.entidades.Animal</class>
+					 <class>br.com.petshop.caokilate.entidades.Consulta</class>
+					 <class>br.com.petshop.caokilate.entidades.Servico</class>
+					 <class>br.com.petshop.caokilate.entidades.Agendamento</class>
+					 <!-- <class>br.ucb.talp.enumeradores.EstadoCivil</class> -->
+		<!-- FIM DAS ENTIDADES CONHECIDAS PELO ENTITY MANAGER -->
+		<properties>
+		<!--  INICIO DAS CONFIGURACOES JDBC  -->
+			<property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="eclipselink.jdbc.url" value="jdbc:mysql://localhost:3306/petshop2" />
+			<property name="eclipselink.jdbc.user" value="root"/>
+			<property name="eclipselink.jdbc.password" value="2401"/>
+
+		<!--  FIM  DAS CONFIGURACOES JDBC  -->
+			<property name="eclipselink.show-sql" value="true"/>
+			<property name="eclipselink.format-sql" value="true"/>
+			<property name="eclipselink.ddl-generation" value="create-tables" />
+			<property name="eclipselink.logging.level" value="FINE" />
+		</properties>
+	</persistence-unit>
+</persistence>

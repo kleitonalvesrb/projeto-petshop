@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/08/2015, 13:24:20
+    Author     : kleitonbatista
+*/
+
+}
+#borda{
+   width: 1000000px;
+   margin:0 auto;
+   font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#bordaModal{
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+   width: 450px;
+   
+   margin:0 auto;
+}
+
+#conteudo-modal{
+	 width: 500px;
+	height: 500px;
+	background-color: white;
+	color: black;
+	border-width: medium;
+	border-style: solid;
+	border-color: #00f;
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+	position: absolute;
+	top: 250px;
+	left: 250px;}
+.none {
+	width:400px;
+	height:30px;
+	border-radius:5px 5px 5px 5px;
+	border: 1px solid #000;
+	}
+.mome{
+	height: 30px;
+	border: none;
+	background: #333333;
+	color: #fff;
+	padding: 10px;
+	font-weight: 700;
+	cursor: pointer;
+	text-decoration: none;	
+	box-shadow: 0 5px 0 #1a1a1a;
+	width:80px;
+	border-radius: 5px 5px 5px 5px; 
+	}
+
+.none:hover{
+	width:400px;
+	height:30px;
+	border-radius:5px 5px 5px 5px;
+	border: 1px solid #000;
+	box-shadow:0px 0px 3px #7b7b7b;
+	transition: width 3s linear 0s;
+	}
+	
+.mome:hover{
+	background: #1a1a1a;
+	color: #fff;
+	box-shadow: 0 5px 0 black;
+	padding: 10px;
+	border-radius: 5px 5px 5px 5px; 
+	}
+	.mome:ACTIVE{
+	position:relative;
+	top:5px;
+	box-shadow:none;
+
+	}
+br{
+text-align:justify
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+p{
+	text-indent:30mm;
+	text-align:justify
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  	}
+  	
+ h1{
+ 	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+ 	font-weight: bold;
+ 	font-size:30px;
+ }
+
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
+a
+{ 
+ text-decoration:none; 
+} 
+
+*{margin: 0; padding: 0;}
+
+#topo{
+    width: auto;
+    height: 140px;
+    background-color:#00a3b4;
+    font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+   
+}
+
+
+#top{
+    width: auto;
+    height:auto;
+    background-color:#white;
+    font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+
+}
+
+#conteudo{
+ width:auto;
+ height:auto;
+ background-color:white;
+ color:black;
+ 	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+
+  
+ }
+  
+#rodape{
+    background-color:#00a3b4;
+    width: auto;
+    height: auto;
+    font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 200px;
+
+  }
+   
+
+  
+  
+  
